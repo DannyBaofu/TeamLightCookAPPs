@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".home_page"></activity>
+        <activity android:name=".home_page"/>
         <activity android:name=".signuppage" />
         <activity android:name=".profileinfo" />
         <activity android:name=".orderinformation" />
@@ -17,8 +17,7 @@
         <activity android:name=".order_page" />
         <activity android:name=".menulist" />
         <activity android:name=".loginpage" />
-        <activity android:name=".deliverypage" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".deliverypage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
